@@ -21,7 +21,7 @@ if __name__ == "__main__":
 # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
 def imprimir_datos_personales(nombre, edad, estatura):
     # Se imprimen en pantalla los datos personales recibidos como argumentos 
-    print(nombre,edad,estatura)
+    print("Nombre: " + nombre + "\nEdad:" + edad + "\nEstatura" + estatura)
 
 if __name__ == "__main__":
     # Se definen las variables con los datos personales
