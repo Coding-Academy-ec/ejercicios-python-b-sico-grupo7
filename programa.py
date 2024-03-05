@@ -11,7 +11,7 @@ if __name__ == "__main__":
 def suma_1_al_10():
     suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
     # Se devuelve el resultado de la suma
-    return(suma)
+    return suma
 
 if __name__ == "__main__":
     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
@@ -21,7 +21,7 @@ if __name__ == "__main__":
 # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
 def imprimir_datos_personales(nombre, edad, estatura):
     # Se imprimen en pantalla los datos personales recibidos como argumentos 
-    print (nombre,edad,estatura)
+    print(nombre,edad,estatura)
 
 if __name__ == "__main__":
     # Se definen las variables con los datos personales
