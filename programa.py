@@ -28,9 +28,16 @@ if __name__ == "__main__":
 # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
 def par_o_impar(numero):
     # Se verifica si el número es divisible por 2
+    if numero % 2 == 0:
         # Si es divisible, se devuelve "par"
+        return 'par'
     else:
         # Si no es divisible, se devuelve "impar"
+        return 'impar'
+
+if __name__ == "__main__":
+    num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+    print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
 
 if __name__ == "__main__":
     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
@@ -42,18 +49,21 @@ import math
 def area_circulo(radio):
     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
     # Se devuelve el área calculada
+    return area
 
 if __name__ == "__main__":
     radio = float(input("Ingrese el radio del círculo: "))  # Se solicita al usuario que ingrese el radio del círculo
     # Se imprime el área calculada del círculo
+    print(area_circulo(radio))
 
 # 6 Define una función que reciba dos números como argumentos y devuelva su suma.
 def suma(a, b):
     # Se devuelve la suma de los dos números recibidos como argumentos
+    return a + b
 
 if __name__ == "__main__":
     num1 = int(input("Ingrese el primer número: "))  # Se solicita al usuario que ingrese el primer número
-    # Se solicita al usuario que ingrese el segundo número
+    num2 = int(input("Ingrese el primer número: "))# Se solicita al usuario que ingrese el segundo número
     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
